@@ -458,7 +458,6 @@ p {
   color: var(--white-color-first);
   font-size: var(--logo-size);
   line-height: var(--logo-line-height);
-  letter-spacing: 0.02em;
   max-width: 264px;
 }
 
