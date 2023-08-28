@@ -56,9 +56,10 @@ p {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
+  border: 2px solid red;
 }
 
 .container-header {
@@ -261,12 +262,13 @@ p {
 
 .list-two {
   display: flex;
-  gap: 24px;
+  /* gap: 72px; */
+  flex-wrap: wrap;
 }
 
-.li-one {
+/* .li-one {
   width: calc((100% - 72px) / 4);
-}
+} */
 
 .div-two {
   display: flex;
@@ -276,6 +278,7 @@ p {
   background-color: var(--white-color-first);
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 
 .li-two {
@@ -285,10 +288,10 @@ p {
 .title-h-third-min {
   color: var(--black-color);
   font-weight: var(--logo-weight);
-  font-size: var(--title-size);
+  font-size: 36px;
   line-height: var(--logo-line-height);
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  text-align: center;
 }
 
 .text-p-min {

@@ -1,0 +1,35 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 418px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .li-one {
+    width: calc((100% - 24px) / 3);
+  }
+
+  .list-two {
+    gap: 72px 24px;
+  }
+
+  .title-h-third-min {
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .text-p-min {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 300px; */
+  }
+
+  .section-second {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
